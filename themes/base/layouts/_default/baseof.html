@@ -1,0 +1,19 @@
+ {{ partial "header.html" . }}
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            {{ partial "nav.html" . }}
+        </div>
+        <div id="content">
+            <div class="container-fluid">
+                {{ block "main" . -}}{{- end }}
+            </div>
+        </div>
+        <div id="footer">
+            {{ partial "footer.html" . }}
+        </div>
+    </div>
+</body>
+
+</html>

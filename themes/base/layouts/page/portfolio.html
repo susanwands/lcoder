@@ -1,0 +1,38 @@
+{{ define "main" -}}
+
+<div class="row">
+    <div class="col-md-12">
+        <section>
+            <h1>About</h1>
+            <p>Developer – I explore business objectives, analyze problems, architect solutions and craft code.
+            </p>
+            <p>Designer - I strive to create solutions that are intuitive, attractive, valuable and secure.
+            </p>
+            <p>Speaker – I talk about technology and strategies for building greater participation and parity in the tech industry.
+            </p>
+        </section>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <section>
+            <h1>Work</h1>
+            <p> Most of my professional work thus far is for large, enterprise level software solutions. I have worked on Agile
+                teams to create solutions and applications for global pharmaceutical companies and multinational organizations.
+                I also create smaller projects to explore different technologies, for teaching purposes or freelance work.
+                You can find some of those projects in the gallery below.
+            </p>
+        </section>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <section>
+            <h1>Skills</h1>
+
+            {{ partial "skills.html" . }}
+        </section>
+    </div>
+</div>
+
+{{- end}}

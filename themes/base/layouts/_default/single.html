@@ -1,0 +1,27 @@
+{{ define "main" -}}
+
+<div class="row">
+    <div class="post">
+        <div class="col-md-6">
+
+            <h1>{{ .Title }}</h1>
+
+
+        </div>
+        <div class="col-md-6">
+
+
+            <label class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</label>
+
+        </div>
+        <div class="col-md-12">
+            <section>
+                {{ .Content }}
+            </section>
+
+
+        </div>
+    </div>
+</div>
+
+{{- end}}

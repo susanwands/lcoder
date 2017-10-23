@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+	margin:10px;
+	padding:0;
+    height:100%;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+#content {
+    padding-bottom:100px;   
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer {
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+h1, h2, h3 {
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 44px;
+}
+section{
+    margin-bottom: 3rem;
+}
+
+
+.skills-list{
+    list-style: none;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;   
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+    
+}
+.skills-list li {
+    font-size: 2rem;    
+    margin-left: 1rem;
+    flex: 1;
+    text-align: center;
+    transition: .3s;   
+       
+}
+
+.skills-list li:nth-of-type(3n+2){
+    font-size: 3rem;  
+}
+
+.skills-list li:nth-of-type(2n+3){
+    color:#19A58C 
+}
+
+.skills-list li:nth-of-type(4n+1){
+    font-style: italic;
+}
+
+.skills-list li:hover {
+    transition: .5s;
+    font-size:3em;   
+    flex-grow: 2;
+    cursor: pointer;
+}
+.skills-list li:nth-of-type(3n+2):hover{
+    font-size:3.5em;   
+    flex-grow: 3; 
+}
+
+#lc-nav{
+    background-color: white !important;
+    color:#22e2c0;
+    border-bottom: 1px solid #22e2c0;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+
+#lc-nav li a{
+    color:#22e2c0;
+}
+
+#lc-nav li a:hover{    
+    color:black;
+}
+
+#logo{
+    margin-top:-11px;
+    margin-left: -10px;
+    margin-right: 1rem;
+}
+
+
+#connect{
+    list-style: none;
+    display: flex;    
+    vertical-align: middle;
+}
+
+.footer{
+    padding: 25px;
+    background-color: #22e2c0;
+    color:#fffdfd;
+    line-height: 1em;    
+    
+}
+
+#connect li a{
+    font-size: 2rem;
+    color:#fffdfd;
+    margin-left: 2rem;
+}
+
+#connect li a:hover{
+    font-size: 2.2rem;
+   text-decoration: none;
+}
+
+.linkedin:after{
+    content: '\f08c ';
+    font-family: 'FontAwesome';    
+}
+
+.facebook:after{
+    content: '\f082 ';
+    font-family: 'FontAwesome';
+}
+.github:after{
+    content: '\f092 ';
+    font-family: 'FontAwesome';
+}
